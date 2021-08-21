@@ -10,6 +10,11 @@ module.exports = {
 			sans: ['Graphik', 'sans-serif'],
 			serif: ['Merriweather', 'serif'],
 		},
+		variants: {
+			extend: {
+				divideColor: ['group-hover'],
+			},
+		},
 	},
 	variants: {
 		extend: {},
